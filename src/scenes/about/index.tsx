@@ -68,7 +68,7 @@ const About = ({ setSelectedPage }: Props) => {
                             </div>
                         </div>
                         <p className="mt-8">
-                            Hello, my name is Darren Zheng (he/him). I am majoring in Computer Science and minoring in General Business at the University of Maryland, College Park. Currently, I am interested in Software Engineering, as I possess a strong foundational knowledge of programming languages such as Java, Python, HTML, CSS, JavaScript, C, OCaml, and many more. I am highly persistent in achieving my goals and have extensive experience in customer service and multitasking. Additionally, I possess strong leadership, effective communication, teamwork, and organizational skills. I am very excited to connect with professionals who can support my career aspirations in Computer Science.
+                            Hello, my name is Darren Zheng (he/him). I am majoring in computer science and minoring in general business at the University of Maryland, College Park. Currently, I am interested in software engineering, as I possess a strong foundational knowledge of programming languages such as Java, Python, HTML, CSS, JavaScript, C, OCaml, and many more. I am highly persistent in achieving my goals and have extensive experience in customer service and multitasking. Additionally, I possess strong leadership, effective communication, teamwork, and organizational skills. I am very excited to connect with professionals who can support my career aspirations in Computer Science.
                         </p>
                     </motion.div>
                     {/* ACTIONS */}
