@@ -26,6 +26,7 @@ function App() {
   return (
     <div className="bg-background-100 app">
       <Navbar 
+        isTopOfPage={isTopOfPage}
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
