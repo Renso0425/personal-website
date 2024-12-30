@@ -52,7 +52,7 @@ const About = ({ setSelectedPage }: Props) => {
                                         1000,
                                         'I am a historian',
                                         1000,
-                                        'I am a customer service representative',
+                                        'I am a customer service rep',
                                         1000,
                                         'I am a software engineer',
                                         1000,
@@ -68,7 +68,7 @@ const About = ({ setSelectedPage }: Props) => {
                             </div>
                         </div>
                         <p className="mt-8">
-                            Hello, my name is Darren Zheng (he/him). I am majoring Computer Science and minoring General Business at University of Maryland, College Park. Currently, I am interested in Software Engineering as I posses strong basic foundations of programming in languages, such as Java, Python, HTLML, CSS, Java Script, C, Ocaml, and many more. I am very persistent in achieving my goals. I have multitude of experience in customer service and multitasking. I also possess strong leadership, effective communication and teamwork, and organization skills. I am very excited to meet new professionals that can help my professional career with my degree of Computer Science.
+                            Hello, my name is Darren Zheng (he/him). I am majoring in Computer Science and minoring in General Business at the University of Maryland, College Park. Currently, I am interested in Software Engineering, as I possess a strong foundational knowledge of programming languages such as Java, Python, HTML, CSS, JavaScript, C, OCaml, and many more. I am highly persistent in achieving my goals and have extensive experience in customer service and multitasking. Additionally, I possess strong leadership, effective communication, teamwork, and organizational skills. I am very excited to connect with professionals who can support my career aspirations in Computer Science.
                         </p>
                     </motion.div>
                     {/* ACTIONS */}
