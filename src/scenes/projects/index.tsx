@@ -16,7 +16,7 @@ const projects: Array<ProjectType> = [
     {
         title: "Terrapin Wars",
         time: "May 2024",
-        description: "Created interactive geographical capture the flag game utilizing Google Maps API to reward players in traveling to college landmarks, encouraging real world discovery and interaction. Implemented back end using Firebase to track player account data as well as collecting statistics on game data allowing for analysis on popular congregation locations and travel times and improvement of landmark placement. Implemented dynamic UI with a live updating global leaderboard, as well as a responsive scaling UI with Flutter. ",
+        description: "Developed an interactive geographical capture-the-flag game using the Google Maps API to reward players for visiting college landmarks, promoting real-world discovery and interaction. Designed the backend with Firebase to manage player account data, collect game statistics, analyze popular congregation spots and travel times, and optimize landmark placement. Created a dynamic user interface featuring a live-updating global leaderboard and a responsive, scalable design using Flutter.",
         skills: "Google Maps API, Firebase, Dart, Flutter",
         direction: 50,
         link: "https://github.com/echang505/TerrapinWars",
@@ -24,7 +24,7 @@ const projects: Array<ProjectType> = [
     {
         title: "Language Evaluator",
         time: "April 2024",
-        description: "Created compiler in Ocaml to convert a custom basic CFG language into Ocaml code. Implemented Lexer, Parser, Eval system to tokenize and validate inputs. Optimized performance to support large scale inputs as well as deep nested logic by supporting over 15+ keywords.",
+        description: "Developed a compiler in OCaml to convert a custom basic CFG language into OCaml code. Implemented a lexer, parser, and evaluation system to tokenize and validate inputs. Optimized performance to handle large-scale inputs and deeply nested logic, supporting over 15 keywords.",
         skills: "OCaml",
         direction: -50,
         link: "https://github.com/Renso0425/Language-Evaluation",
@@ -32,7 +32,7 @@ const projects: Array<ProjectType> = [
     {
         title: "SAC Datathon-NBA Proposal",
         time: "March 2024",
-        description: "Developed a linear regression model to analyze over 10,000 real world records in order to determine ideal locations to form new NBA teams based on real world data for Deloitte’s Datathon competition. Utilized Pandas and Scikit-Learn to perform exploratory data analysis to perform feature extraction to identify key important factors such as fan base data, reducing computation time of the regression model by over 80%.",
+        description: "Developed a linear regression model to analyze over 10,000 real-world records to identify ideal locations for establishing new NBA teams, based on real-world data, for Deloitte’s Datathon competition. Utilized Pandas and Scikit-Learn to perform exploratory data analysis and feature extraction, identifying key factors such as fan base data. Optimized the regression model, reducing computation time by over 80%.",
         skills: "Python, Pandas, Sklearn",
         direction: 50,
         link: "",
