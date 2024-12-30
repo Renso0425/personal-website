@@ -135,7 +135,7 @@ const Skills = ({ setSelectedPage }: Props) => {
                 <HText>My Skills</HText>
             </motion.div>
             <motion.div 
-                className="mt-10 rounded-xl bg-white border-2 border-gray-100 pb-5 items-center justify-between gap-8 grid md:grid-cols-7 grid-cols-4"
+                className="mt-10 rounded-xl bg-white border-2 border-gray-100 pb-5 items-center justify-between gap-8 grid md:grid-cols-7 grid-cols-3"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: false, amount: 0.5}}
