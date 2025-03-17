@@ -10,6 +10,7 @@ export interface ExperienceType {
   title: string;
   time: string;
   place: string;
+  direction: number;
   description: string;
 }
 
