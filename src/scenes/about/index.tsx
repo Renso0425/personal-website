@@ -3,7 +3,8 @@ import ActionButton from "../../shared/ActionButton";
 import { motion } from "framer-motion";
 import ProfilePic from "../../assets/darrenpfp.jpg"
 import { TypeAnimation } from 'react-type-animation';
-
+import Res from "../../assets/DarrenZResume.pdf"
+import { StarIcon } from '@heroicons/react/24/solid';
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;
@@ -87,6 +88,10 @@ const About = ({ setSelectedPage }: Props) => {
                         <ActionButton setSelectedPage={setSelectedPage}>
                             Contact Me
                         </ActionButton>
+                        <div className="flex gap-1 group">
+                            <a target="_blank" className="underline font-bold" href={Res}>Resume</a>
+                            <StarIcon className="text-background-100 h-5 w-5 pt-1 group-hover:text-gray-100"/>
+                        </div>
                     </motion.div>
                 </div>
                 {/* IMAGE */}

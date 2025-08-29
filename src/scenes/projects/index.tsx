@@ -6,28 +6,28 @@ import Project from "./project";
 // Must identify objects and their types
 const projects: Array<ProjectType> = [
     {
-        title: "Pokemon Gacha",
+        title: "Stranded",
+        time: "April 2025",
+        description: "Architected and developed a comprehensive suite of 30+ C# scripts for a Unity-based first-person puzzle game, implementing core features such as first-person movement, engaging storyline, and context-sensitive object interactions.Designed and implemented a dynamic procedural system that adjusts 4 distinct difficulty settings, procedural world generation, and enemy AI, creating a scalable and challenging experience. Developed a comprehensive user-facing system featuring 3 distinct menus and over 7 interactive HUD elements, leveraging a modular UI architecture for inventory and quest tracking to enhance player usability and streamline game progression.",
+        skills: "C#, Unity Game Engine, Unity UI",
+        direction: 50,
+        link: "https://github.com/ocalalex/CMSC425-Island-Game",
+    },
+    {
+        title: "Pokémon Gacha",
         time: "December 2024",
-        description: "Designed and developed an interactive Pokemon Gacha Simulator website featuring real-time data from the PokeAPI. Integrated a MongoDB database to manage user accounts and enhance organization. Deployed the platform using Node.js to handle backend logic and host dynamic web pages efficiently.",
-        skills: "Node.js, PokeAPI, JavaScript, CSS, MongoDB",
+        description: "Developed a full-stack web application, a Pokémon Gacha Simulator, utilizing Node.js and Express.js to manage server-side logic and EJS for dynamic templating. Implemented a user authentication and data persistence system using MongoDB to handle user accounts, securely storing login credentials and a list of collected Pokémon, increasing data retrieval efficiency by 90% compared to a non-indexed database. Integrated PokéAPI to dynamically fetch and display Pokémon data, improving performance by caching frequently accessed data and reducing API calls by 70%",
+        skills: "Node.js, PokéAPI, JavaScript, CSS, MongoDB",
         direction: -50,
         link: "https://pokemongacha-10kj.onrender.com/",
     },
     {
         title: "Terrapin Wars",
         time: "May 2024",
-        description: "Developed an interactive geographical capture-the-flag game using the Google Maps API to reward players for visiting college landmarks, promoting real-world discovery and interaction. Designed the backend with Firebase to manage player account data, collect game statistics, analyze popular congregation spots and travel times, and optimize landmark placement. Created a dynamic user interface featuring a live-updating global leaderboard and a responsive, scalable design using Flutter.",
+        description: "Developed a Flutter mobile application for a location-based game, 'Terrapin Wars', integrating Google Maps API to display key locations and the user's current position. Implemented Firebase Authentication to enable user registration and login with robust error handling for weak passwords, existing accounts, and invalid email formats. Utilized Firebase Realtime Database to manage game data, including user accounts, captured points, and location tracking, improving data synchronization across devices by 40% by optimizing data structure and listeners.",
         skills: "Google Maps API, Firebase, Dart, Flutter",
         direction: 50,
         link: "https://github.com/echang505/TerrapinWars",
-    },
-    {
-        title: "Language Evaluator",
-        time: "April 2024",
-        description: "Developed a compiler in OCaml to convert a custom basic CFG language into OCaml code. Implemented a lexer, parser, and evaluation system to tokenize and validate inputs. Optimized performance to handle large-scale inputs and deeply nested logic, supporting over 15 keywords.",
-        skills: "OCaml",
-        direction: -50,
-        link: "https://github.com/Renso0425/Language-Evaluation",
     },
     {
         title: "SAC Datathon-NBA Proposal",

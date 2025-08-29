@@ -9,7 +9,9 @@ export enum SelectedPage {
 export interface ExperienceType {
   title: string;
   time: string;
+  company: string;
   place: string;
+  direction: number;
   description: string;
 }
 

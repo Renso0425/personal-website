@@ -32,17 +32,17 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                                     setSelectedPage={setSelectedPage}
                                 />
                                 <Link 
+                                    page="Experiences" 
+                                    selectedPage={selectedPage}
+                                    setSelectedPage={setSelectedPage}
+                                />
+                                <Link 
                                     page="Projects"
                                     selectedPage={selectedPage}
                                     setSelectedPage={setSelectedPage} 
                                 />
                                 <Link 
                                     page="Skills" 
-                                    selectedPage={selectedPage}
-                                    setSelectedPage={setSelectedPage}
-                                />
-                                <Link 
-                                    page="Experiences" 
                                     selectedPage={selectedPage}
                                     setSelectedPage={setSelectedPage}
                                 />
@@ -84,17 +84,17 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                         setSelectedPage={setSelectedPage}
                     />
                     <Link 
+                        page="Experiences" 
+                        selectedPage={selectedPage}
+                        setSelectedPage={setSelectedPage}
+                    />
+                    <Link 
                         page="Projects"
                         selectedPage={selectedPage}
                         setSelectedPage={setSelectedPage} 
                     />
                     <Link 
                         page="Skills" 
-                        selectedPage={selectedPage}
-                        setSelectedPage={setSelectedPage}
-                    />
-                    <Link 
-                        page="Experiences" 
                         selectedPage={selectedPage}
                         setSelectedPage={setSelectedPage}
                     />
