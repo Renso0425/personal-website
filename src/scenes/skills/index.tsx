@@ -21,6 +21,8 @@ import OCamlIcon from "../../assets/ocaml.png"
 import RustIcon from "../../assets/rust.png"
 import AssemblyIcon from "../../assets/assembly.png"
 import DartIcon from "../../assets/dart.png"
+import CSharpIcon from "../../assets/csharp.png"
+import UnityIcon from "../../assets/unity.png"
 
 const skills: Array<SkillType> = [
     {
@@ -98,6 +100,14 @@ const skills: Array<SkillType> = [
     {
         icon: <img className="h-8 w-8" alt="Typescript" src={TypeScriptIcon}/>,
         title: "TypeScript",    
+    },
+        {
+        icon: <img className="h-8 w-8" alt="CSharp" src={CSharpIcon}/>,
+        title: "CSharp",    
+    },
+        {
+        icon: <img className="h-8 w-8" alt="Unity" src={UnityIcon}/>,
+        title: "Unity",    
     },
 ];
 
