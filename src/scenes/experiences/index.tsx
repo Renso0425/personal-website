@@ -14,6 +14,14 @@ const experiences: Array<ExperienceType> = [
         description: "Championed cultural integration by developing a safe and inclusive community for students to explore and celebrate Hong Kong culture, fostering a sense of belonging for over 100 members. Directed a team of 11 executive board members to successfully plan and execute all club initiatives, maintaining project timelines through clear task delegation and accountability. Cultivated partnerships with over a dozen campus and intercollegiate organizations, co-hosting multi-cultural events that enhanced diversity and broadened the club’s reach."
     },
     {
+        title: "Teaching Assistant – Introduction to C Programming",
+        company: "University of Maryland Hong Kong Student Association",
+        time: "September 2025 - December 2025",
+        place: "College Park, MD",
+        direction: -50,
+        description: "Taught a class of 50 students the fundamentals of C programming, focusing on core concepts like memory management and pointer logic. Translated complex Computer Science topics into simple, clear explanations for students with non-technical backgrounds. Held regular technical deep-dives and debugging sessions to help students troubleshoot logic errors and improve their code. Managed the review and grading of 50+ code projects per week, providing detailed feedback on code quality and logic under tight deadlines."
+    },
+    {
         title: "Software Development Intern",
         company: "Amazon Web Services IAM",
         time: "June 2025 - August 2025",
@@ -40,7 +48,7 @@ const experiences: Array<ExperienceType> = [
     {
         title: "Community Assistant",
         company: "University of Maryland Reslife",
-        time: "August 2022 - Present ",
+        time: "August 2022 - February 2025",
         place: "College Park, MD",
         direction: 50,
         description: "Collected, organized, and distributed packages and keys for student residents. Maintained a positive representation of the university. Provided assistance to students, residential life staff, parents, and package carriers. Acted as a reliable liaison between 300 residents and the school's residential department."
